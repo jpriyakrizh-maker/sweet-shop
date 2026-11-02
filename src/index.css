@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #fff1d8;
+  background: #2b090f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --maroon: #4a1018;
+  --maroon-deep: #2b090f;
+  --red: #7d1c27;
+  --gold: #e6b85c;
+  --gold-light: #f6df9b;
+  --cream: #2b090f;
+  --ink: #3b1717;
+  --muted: #c8ac9a;
+  --line: rgba(230, 184, 92, .2);
+  --serif: 'Playfair Display', Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; }
+img { display: block; max-width: 100%; }
+::selection { background: var(--gold-light); color: var(--maroon-deep); }
